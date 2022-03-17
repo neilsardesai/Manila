@@ -4,7 +4,7 @@
 Manila is a Finder extension that lets you change the colors of your folders from the context menu.
 
 ## Installation
-Download and unzip the [latest release](https://github.com/neilsardesai/Manila/releases/download/v1.0/Manila.zip), move the app to the Applications folder, then open it.
+Download and unzip the [latest release](https://github.com/neilsardesai/Manila/releases/download/v1.0.1/Manila.zip), move the app to the Applications folder, then open it.
 
 You may also need to manually enable the extension in System Preferences > Extensions > Finder Extensions.
 
