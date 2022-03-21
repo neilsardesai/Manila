@@ -8,5 +8,7 @@ Download and unzip the [latest release](https://github.com/neilsardesai/Manila/r
 
 You may also need to manually enable the extension in System Preferences > Extensions > Finder Extensions.
 
+Requires macOS 12.1 or later.
+
 ## Usage
 Right click on one or more folders whose color you want to change, go to the Color menu, and pick a color.
