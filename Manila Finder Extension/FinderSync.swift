@@ -14,9 +14,13 @@ class FinderSync: FIFinderSync {
 
     override init() {
         super.init()
+                
+        let urls = FileManager.default.mountedVolumeURLs(
+            includingResourceValuesForKeys: nil,
+            options: [.skipHiddenVolumes]
+        ) ?? []
         
-        // Set up the directory we are syncing.
-        FIFinderSyncController.default().directoryURLs = [URL(fileURLWithPath: "/")]
+        FIFinderSyncController.default().directoryURLs = Set(urls)
     }
     
     // MARK: - Menu and toolbar item support
