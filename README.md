@@ -8,6 +8,8 @@ Download and unzip the [latest release](https://github.com/neilsardesai/Manila/r
 
 You may also need to manually enable the extension in System Preferences > Extensions > Finder Extensions.
 
+In macOS 13, you shall enable the extension in System Settings > Privacy & Security > Extensions > Finder Extensions.
+
 Requires macOS 12.1 or later.
 
 ## Usage

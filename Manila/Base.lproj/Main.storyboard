@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
+<document type="com.apple.InterfaceBuilder3.Cocoa.Storyboard.XIB" version="3.0" toolsVersion="21507" targetRuntime="MacOSX.Cocoa" propertyAccessControl="none" useAutolayout="YES" initialViewController="B8D-0N-5wS">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="20037"/>
+        <deployment identifier="macosx"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="21507"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -444,11 +445,11 @@
             <objects>
                 <viewController id="XfG-lQ-9wD" customClass="ViewController" customModule="Manila" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="m2S-Jp-Qdl">
-                        <rect key="frame" x="0.0" y="0.0" width="412" height="639"/>
+                        <rect key="frame" x="0.0" y="0.0" width="412" height="655"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Bgs-hA-AjN" customClass="WindowMovingImageView" customModule="Manila" customModuleProvider="target">
-                                <rect key="frame" x="142" y="483" width="128" height="128"/>
+                                <rect key="frame" x="142" y="499" width="128" height="128"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="128" id="73r-N0-GfJ"/>
                                     <constraint firstAttribute="width" constant="128" id="g4J-SC-edV"/>
@@ -456,7 +457,7 @@
                                 <imageCell key="cell" refusesFirstResponder="YES" alignment="left" imageScaling="proportionallyUpOrDown" image="NSApplicationIcon" id="n8X-pi-YQx"/>
                             </imageView>
                             <textField horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="wvR-F1-BNL">
-                                <rect key="frame" x="88" y="453" width="237" height="30"/>
+                                <rect key="frame" x="88" y="469" width="237" height="30"/>
                                 <textFieldCell key="cell" lineBreakMode="clipping" alignment="center" title="Welcome to Manila" id="hP1-z3-qcs">
                                     <font key="font" metaFont="systemBold" size="26"/>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
@@ -464,10 +465,10 @@
                                 </textFieldCell>
                             </textField>
                             <textField verticalHuggingPriority="750" horizontalCompressionResistancePriority="250" translatesAutoresizingMaskIntoConstraints="NO" id="2UO-Jn-WKz">
-                                <rect key="frame" x="18" y="333" width="376" height="96"/>
+                                <rect key="frame" x="18" y="333" width="376" height="112"/>
                                 <textFieldCell key="cell" id="Wl9-0G-74J">
                                     <font key="font" metaFont="system"/>
-                                    <string key="title">Manila is a Finder extension. To use Manila, first go to System Preferences &gt; Extensions &gt; Finder Extensions, and make sure the extension is enabled. After that, just right click on one or more folders whose color you want to change, go to the Color menu, and pick a color. Manila will continue to work after you close this window.</string>
+                                    <string key="title">Manila is a Finder extension. To use Manila, first go to System Preferences &gt; Extensions &gt; Finder Extensions (in macOS 13, go to System Settings &gt; Privacy &amp; Security &gt; Extensions &gt; Finder Extensions), and make sure the extension is enabled. After that, just right click on one or more folders whose color you want to change, go to the Color menu, and pick a color. Manila will continue to work after you close this window.</string>
                                     <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
                                     <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
                                 </textFieldCell>
